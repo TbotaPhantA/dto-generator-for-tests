@@ -1,6 +1,6 @@
 import {ExampleEnum} from "./example.enum";
 
-class ExampleDto {
+export class ExampleDto {
     requiredNumberField: number;
     optionalNumberField?: number;
 
