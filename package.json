@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TbotaPhantA/dto-generator-for-tests/issues"
   },
-  "homepage": "https://github.com/TbotaPhantA/dto-generator-for-tests#readme"
+  "homepage": "https://github.com/TbotaPhantA/dto-generator-for-tests#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
 }
