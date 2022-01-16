@@ -20,5 +20,8 @@
   "homepage": "https://github.com/TbotaPhantA/dto-generator-for-tests#readme",
   "dependencies": {
     "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
