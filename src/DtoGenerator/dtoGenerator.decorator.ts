@@ -8,6 +8,10 @@ const DtoGenerator =
   <T extends { new(...args: any[]): {} }>(constructor: T) => {
     return class extends constructor {
       // TODO: generator
+      // eslint-disable-next-line require-jsdoc
+      static default() {
+        return new this();
+      }
     };
   };
 
