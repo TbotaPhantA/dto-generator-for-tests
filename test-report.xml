@@ -5,6 +5,6 @@
   toString: &apos;The word &quot;name&quot; - should return &quot;Name&quot;&apos;,
   name: &apos;name&apos;,
   expected: &apos;Name&apos;
-}" duration="3"/>
+}" duration="2"/>
   </file>
 </testExecutions>
