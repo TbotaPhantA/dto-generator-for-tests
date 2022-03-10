@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/bota/projects/nodejs-projects/npm-packages/dto-generator-for-tests/tests/unit/utils/capitalizeWord.spec.ts">
+    <testCase name="capitalizeWord {
+  toString: &apos;The word &quot;name&quot; - should return &quot;Name&quot;&apos;,
+  name: &apos;name&apos;,
+  expected: &apos;Name&apos;
+}" duration="3"/>
+  </file>
+</testExecutions>

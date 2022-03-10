@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="2.015">
+  <testsuite name="capitalizeWord" errors="0" failures="0" skipped="0" timestamp="2022-03-10T19:48:44" time="1.951" tests="1">
+    <testcase classname="capitalizeWord {
+  toString: &apos;The word &quot;name&quot; - should return &quot;Name&quot;&apos;,
+  name: &apos;name&apos;,
+  expected: &apos;Name&apos;
+}" name="capitalizeWord {
+  toString: &apos;The word &quot;name&quot; - should return &quot;Name&quot;&apos;,
+  name: &apos;name&apos;,
+  expected: &apos;Name&apos;
+}" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
