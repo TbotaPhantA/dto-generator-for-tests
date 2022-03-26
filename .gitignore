@@ -1,5 +1,18 @@
-node_modules
+#dependencies
+/node_modules
+
+# IDE
+/.idea
+/.vscode
+/.awcache
+.history
+
+# tests
+/coverage
+/.nyc_output
+
+#source
 dist
-.idea
-package-lock.json
-lib
+index.js
+index.d.ts
+/sample
