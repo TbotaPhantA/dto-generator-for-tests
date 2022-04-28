@@ -10,6 +10,8 @@
 # tests
 /coverage
 /.nyc_output
+junit.xml
+test-report.xml
 
 #source
 dist
