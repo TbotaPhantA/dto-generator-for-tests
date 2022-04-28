@@ -10,3 +10,5 @@ class DtoGenerator extends InjectionGenerator<Dto> {
     return new InjectionGenerator(new Dto())
   }
 }
+
+const something = DtoGenerator.default().result

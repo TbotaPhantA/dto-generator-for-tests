@@ -1,10 +1,10 @@
 class InjectionGenerator<T extends Record<string, any>> {
+  public readonly result: T;
+
   constructor(
     private _target: T,
-  ) {}
-
-  public getResult(): T {
-    return this._target
+  ) {
+    this.result = _target
   }
 }
 
