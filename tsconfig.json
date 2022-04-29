@@ -22,6 +22,7 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
+    "keyofStringsOnly": true,
   },
   "include": ["lib/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "lib/__fixtures__"]

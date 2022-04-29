@@ -8,4 +8,5 @@ class InjectionGenerator<T extends Record<string, any>> {
   }
 }
 
+
 export default InjectionGenerator;
