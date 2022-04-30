@@ -1,0 +1,6 @@
+node_modues
+.idea
+lib
+.eslintrc.json
+.eslintignore
+.gitignore
