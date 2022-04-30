@@ -4,6 +4,13 @@
 
 This is convenient fixture generator for tests based on builder pattern.
 ***
+
+### Install 
+```
+npm i ts-fixture-builder
+```
+
+***
 #### Example:
 <br />
 
@@ -21,15 +28,17 @@ class User {
 
 - Then you can declare builder of this user:
 ```tsx
-class UserBuilder extends InjectionBuilder<User> {
+import { InjectionBuilder } from 'ts-fixture-builder';
+
+class UserBuilder {
   public static defaultOnlyRequired() {
-    return new UserBuilder(new User())
+    return new InjectionBuilder<User>(new User())
       .with({ name: 'John' })
       .with({ email: 'john@gmail.com' })
   }
 
   public static defaultAll() {
-    return new UserBuilder(new User())
+    return new InjectionBuilder<User>(new User())
       .with({ name: 'John' })
       .with({ email: 'john@gmail.com' })
       .with({ lastName: 'Smith' })
