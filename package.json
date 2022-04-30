@@ -2,6 +2,8 @@
   "name": "fixture-builder-for-tests",
   "version": "0.0.1",
   "description": "fixture generator based on 'builder' pattern",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/derbent-ninjas/fixture-generator-for-tests"
