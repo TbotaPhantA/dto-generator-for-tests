@@ -1,5 +1,5 @@
 {
-  "name": "fixture-builder-for-tests",
+  "name": "ts-fixture-builder",
   "version": "0.0.1",
   "description": "fixture generator based on 'builder' pattern",
   "main": "dist/index.js",
