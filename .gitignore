@@ -17,3 +17,5 @@ test-report.xml
 dist
 index.js
 index.d.ts
+
+tsconfig.tsbuildinfo
