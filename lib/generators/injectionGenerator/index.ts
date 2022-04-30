@@ -1,1 +1,1 @@
-export { default } from './injectionGenerator'
+export { default } from './injectionBuilder'
